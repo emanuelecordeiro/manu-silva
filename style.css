@@ -1,4 +1,17 @@
 body{
-    background-color: #583853;
-
+  background-color: aqua;
 }
+header{
+  /*cor de fundo*/
+  background-color: blueviolet;
+  /*cor do texto*/
+  color: aliceblue;
+  /*alinhamento do texto*/
+  text-align: center;
+  /*preenchimento*/
+  padding: 20px;
+}
+  
+
+
+
