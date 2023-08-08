@@ -1,7 +1,8 @@
 body{
   background-color: aqua;
+  margin: 0;/*remova 
 }
-header{
+header,footer{
   /*cor de fundo*/
   background-color: blueviolet;
   /*cor do texto*/
