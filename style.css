@@ -1,18 +1,76 @@
-body{
-  background-color: aqua;
-  margin: 0;/*remova 
+body {
+  /* cor de fundo do site */
+  background-color: rgba(185, 245, 245, 0.589);
+  /* tipo fonte do nosso site*/
+  font-family: Arial, sans-serif;
+  /* tamanho da fonte */
+  font-size: 16px;
 }
-header,footer{
-  /*cor de fundo*/
-  background-color: blueviolet;
-  /*cor do texto*/
-  color: aliceblue;
-  /*alinhamento do texto*/
+
+img {
+  width: 700px;
   text-align: center;
-  /*preenchimento*/
-  padding: 20px;
 }
-  
 
+header {
+  /* cor de fundo */
+  background-color: rgb(111, 194, 194);
+  /* cor do texto */
+  color: #050505;
+  /* alinhamento do texto */
+  text-align: center;
+  /* preenchimento */
+  padding: 15px;
+}
 
+.imagem {
+  display: flex;
+
+}
+
+footer {
+  /* cor de fundo */
+  background-color: rgb(111, 194, 194);
+  /* cor do texto */
+  color: #050505;
+  /* alinhamento do texto */
+  text-align: center;
+  /* preenchimento */
+  padding: 15px;
+}
+
+a:hover {
+  /* Alterar a cor do texto quando o mouse estiver sobre o link */
+  color: #009688;
+} 
+
+a { 
+  /* adicionar uma transição suave á cor do texto */
+  transition: color 0.3s ease;
+}
+nav{
+   background-color: rgb(255, 0, 149);
+   text-align: center;
+}  
+
+nav ul{
+   list-style: none;
+   padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #050505;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a:hover{
+  color: deeppink;
+}
 
