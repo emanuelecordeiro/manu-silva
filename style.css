@@ -74,3 +74,20 @@ nav a:hover{
   color: deeppink;
 }
 
+.sobre-título{
+  font-size: 46px;
+  color: blueviolet;
+  margin-bottom: 50px;
+}
+
+.sobre-texto{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   line-height: 2.0;
+   margin-top: 10px;
+}
+.sobre-lista{
+  list-style: circle;
+  padding-left: 0;
+  margin-top: 15px;
+}
