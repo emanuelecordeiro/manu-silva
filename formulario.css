@@ -1,0 +1,45 @@
+/* Estilo para o titulo do formulario*/
+h2{
+    font-size: 40px;
+    margin-top: 40px;
+    color:#d47cac;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #d47cac;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #d47cac;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão de envio*/
+input[type="submit"] {
+     background-color: #d47cac;
+     color: #ce43a4;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 18px;
+     transition: background-color 0.3s;
+}
+input[type= "submit"]: hover{
+    background-color:#d47cac;
+}
+    
+    
+  
